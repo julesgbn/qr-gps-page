@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Choisissez votre GPS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      background-color: #f2f2f2;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    .button {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 25px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      color: white;
+    }
+    .waze {
+      background-color: #5a5aff;
+    }
+    .google-maps {
+      background-color: #34a853;
+    }
+  </style>
+</head>
+<body>
+  <h1>Choisissez votre application de navigation</h1>
+  <a class="button waze" href="https://waze.com/ul?ll=48.8588443,2.2943506&navigate=yes" target="_blank">🚗 Ouvrir dans Waze</a>
+  <a class="button google-maps" href="https://www.google.com/maps/dir/?api=1&destination=48.8588443,2.2943506" target="_blank">🗺️ Ouvrir dans Google Maps</a>
+</body>
+</html>
